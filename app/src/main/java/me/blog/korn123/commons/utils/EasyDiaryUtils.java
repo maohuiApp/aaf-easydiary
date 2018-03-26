@@ -49,41 +49,41 @@ public class EasyDiaryUtils {
             imageView.setVisibility(View.VISIBLE);
         }
 
-        switch (weatherFlag) {
-            case 0:
-                imageView.setImageResource(0);
-                break;
-            case Constants.WEATHER_SUNNY:
-                imageView.setImageResource(R.drawable.ic_sunny);
-                break;
-            case Constants.WEATHER_CLOUD_AND_SUN:
-                imageView.setImageResource(R.drawable.ic_clouds_and_sun);
-                break;
-            case Constants.WEATHER_RAIN_DROPS:
-                imageView.setImageResource(R.drawable.ic_raindrops);
-                break;
-            case Constants.WEATHER_BOLT:
-                imageView.setImageResource(R.drawable.ic_bolt);
-                break;
-            case Constants.WEATHER_SNOWING:
-                imageView.setImageResource(R.drawable.ic_snowing);
-                break;
-            case Constants.WEATHER_RAINBOW:
-                imageView.setImageResource(R.drawable.ic_rainbow);
-                break;
-            case Constants.WEATHER_UMBRELLA:
-                imageView.setImageResource(R.drawable.ic_umbrella_1);
-                break;
-            case Constants.WEATHER_STARS:
-                imageView.setImageResource(R.drawable.ic_stars_2);
-                break;
-            case Constants.WEATHER_MOON:
-                imageView.setImageResource(R.drawable.ic_moon_9);
-                break;
-            case Constants.WEATHER_NIGHT_RAIN:
-                imageView.setImageResource(R.drawable.ic_night_rain);
-                break;
-        }
+//        switch (weatherFlag) {
+//            case 0:
+//                imageView.setImageResource(0);
+//                break;
+//            case Constants.WEATHER_SUNNY:
+//                imageView.setImageResource(R.drawable.ic_sunny);
+//                break;
+//            case Constants.WEATHER_CLOUD_AND_SUN:
+//                imageView.setImageResource(R.drawable.ic_clouds_and_sun);
+//                break;
+//            case Constants.WEATHER_RAIN_DROPS:
+//                imageView.setImageResource(R.drawable.ic_raindrops);
+//                break;
+//            case Constants.WEATHER_BOLT:
+//                imageView.setImageResource(R.drawable.ic_bolt);
+//                break;
+//            case Constants.WEATHER_SNOWING:
+//                imageView.setImageResource(R.drawable.ic_snowing);
+//                break;
+//            case Constants.WEATHER_RAINBOW:
+//                imageView.setImageResource(R.drawable.ic_rainbow);
+//                break;
+//            case Constants.WEATHER_UMBRELLA:
+//                imageView.setImageResource(R.drawable.ic_umbrella_1);
+//                break;
+//            case Constants.WEATHER_STARS:
+//                imageView.setImageResource(R.drawable.ic_stars_2);
+//                break;
+//            case Constants.WEATHER_MOON:
+//                imageView.setImageResource(R.drawable.ic_moon_9);
+//                break;
+//            case Constants.WEATHER_NIGHT_RAIN:
+//                imageView.setImageResource(R.drawable.ic_night_rain);
+//                break;
+//        }
     }
 
     public static String getEasyDiaryMimeType() {

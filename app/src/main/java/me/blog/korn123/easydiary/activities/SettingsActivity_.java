@@ -358,11 +358,11 @@ public class SettingsActivity_ extends AppCompatPreferenceActivity {
             }
             String version = pInfo.versionName;
             mAppVersionPreference.setTitle(getString(R.string.rate_app));
-            mAppVersionPreference.setSummary("Easy Diary v " + version);
+            mAppVersionPreference.setSummary("简易日记本 " + version);
             mAppVersionPreference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    Uri uri = Uri.parse("market://details?id=me.blog.korn123.easydiary");
+                    Uri uri = Uri.parse("market://details?id=com.moly.hooyee.easydiary");
                     Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
                     // To count with Play market backstack, After pressing back button,
                     // to taken back to our application, we need to add following flags to intent.
@@ -373,7 +373,7 @@ public class SettingsActivity_ extends AppCompatPreferenceActivity {
                         startActivity(goToMarket);
                     } catch (ActivityNotFoundException e) {
                         startActivity(new Intent(Intent.ACTION_VIEW,
-                                Uri.parse("http://play.google.com/store/apps/details?id=me.blog.korn123.easydiary")));
+                                Uri.parse("http://play.google.com/store/apps/details?id=com.moly.hooyee.easydiary")));
                     }
                     return false;
                 }

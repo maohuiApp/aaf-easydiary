@@ -6,10 +6,17 @@
     <application
         android:allowBackup="true"
         android:name=".helper.EasyDiaryApplication"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_app"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5a6947caf43e48066d000121" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="应用宝" />
+
         <activity
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
             android:name=".activities.IntroActivity"
@@ -20,9 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.SettingsActivity" android:label="" android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.simplemobiletools.commons.activities.CustomizationActivity" android:label="@string/customize_colors" android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activities.WebViewActivity" android:label="Licenses" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.SettingsActivity"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.simplemobiletools.commons.activities.CustomizationActivity"  android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.WebViewActivity" android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="me.blog.korn123.easydiary.activities.DiaryInsertActivity" android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="me.blog.korn123.easydiary.activities.DiaryReadActivity" android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="me.blog.korn123.easydiary.activities.DiaryUpdateActivity" android:theme="@style/AppTheme.NoActionBar" />

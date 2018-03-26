@@ -8,6 +8,8 @@ import android.os.Message;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.umeng.analytics.MobclickAgent;
+
 import java.util.Locale;
 
 import butterknife.BindView;
@@ -83,5 +85,18 @@ public class IntroActivity extends Activity implements Handler.Callback {
 //        float commonSize = CommonUtils.loadFloatPreference(IntroActivity.this, Constants.SETTING_FONT_SIZE, mAppName.getTextSize());
 //        FontUtils.setFontsSize(commonSize, -1, mAppName, mCompanyName);
 //    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
+
 
 }

@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">易用日记本</string>
+
+    <!-- https://github.com/SimpleMobileTools/Simple-Commons START -->
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="simple_commons">共享</string>
+    <string name="value_copied_to_clipboard">复制到剪切板</string>
+
+    <!-- Color customization -->
+    <string name="background_color">背景颜色</string>
+    <string name="text_color">文字颜色</string>
+    <string name="primary_color">颜色还原</string>
+    <string name="restore_defaults">恢复默认值</string>
+    <string name="theme">主题</string>
+    <string name="changing_color_description">更改颜色将会切换到相应主题</string>
+    <string name="save">保存</string>
+    <string name="discard">撤销</string>
+    <string name="undo_changes">撤消修改</string>
+    <string name="undo_changes_confirmation">确定撤销修改吗？</string>
+    <string name="save_before_closing">您有为保存的修改，是否在退出前保存</string>
+    <string name="apply_to_all_apps">应用颜色</string>
+    <string name="share_colors_success">颜色更新成功。请用该颜色更新应用色系.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Please purchase <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> to unlock this function and support the development. Thanks!
+        ]]>
+    </string>
+
+    <!-- Themes -->
+    <string name="light_theme">白天</string>
+    <string name="dark_theme">晚上</string>
+    <string name="solarized">曝光</string>
+    <string name="dark_red">深红</string>
+    <string name="custom">自定义</string>
+    <string name="shared">分享</string>
+
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="customize_colors">自定义颜色</string>
+    <string name="use_english_language">切换到英文</string>
+    <string name="show_hidden_items">显示隐藏选项</string>
+    <string name="font_size">字体大小</string>
+    <string name="small">小</string>
+    <string name="medium">适中</string>
+    <string name="large">大</string>
+    <string name="extra_large">超大</string>
+    <string name="password_protect_hidden_items">密码，保护，该项不可见</string>
+    <string name="password_protect_whole_app">密码保护整个应用</string>
+    <string name="keep_last_modified">保留上次修改的值</string>
+    <string name="show_info_bubble">当滚动条滚动时，显示一个气泡</string>
+    <!-- https://github.com/SimpleMobileTools/Simple-Commons END -->
+
+    <!--Common-->
+    <string name="common_create_seconds">创建时间</string>
+
+    <!--DiaryInsertActivity-->
+    <string name="create_diary_title">写日记</string>
+    <string name="write_date">日期</string>
+    <string name="request_title_message">请输入主题</string>
+    <string name="request_content_message">请输入内容.</string>
+    <string name="guide_message">输入或说出主题.</string>
+    <string name="contents_text_hint">输入或说出内容.</string>
+    <string name="delete_photo_confirm_message">你确定要删除这张照片吗？</string>
+    <string name="gallery_intent_not_found_message">该相册应用程序没有安装或被禁用</string>
+    <string name="create_diary_showcase_button_1">下一步</string>
+    <string name="create_diary_showcase_button_2">关闭</string>
+    <string name="create_diary_showcase_title_1">天气</string>
+    <string name="create_diary_showcase_title_2">主题</string>
+    <string name="create_diary_showcase_title_3">内容</string>
+    <string name="create_diary_showcase_title_4">附上照片</string>
+    <string name="create_diary_showcase_title_5">扩大字体</string>
+    <string name="create_diary_showcase_title_6">缩小字体</string>
+    <string name="create_diary_showcase_title_7">选择日期</string>
+    <string name="create_diary_showcase_title_8">选择时间</string>
+    <string name="create_diary_showcase_title_9">保存</string>
+    <string name="create_diary_showcase_message_1">为创建的日记选择时间和天气（天气非必需）</string>
+    <string name="create_diary_showcase_message_2">日记主题的类型</string>
+    <string name="create_diary_showcase_message_3">输入日记，笔记，摘要，等等</string>
+    <string name="create_diary_showcase_message_4">在日记上附上一张照片。</string>
+    <string name="create_diary_showcase_message_5">扩大日记中使用的文本。</string>
+    <string name="create_diary_showcase_message_6">缩小日记中使用的文本</string>
+    <string name="create_diary_showcase_message_7">选择日记创建日期。如果你想为过去的日子写日记，你可以改变日期到过去哦</string>
+    <string name="create_diary_showcase_message_8">选择日记创建时间。</string>
+    <string name="create_diary_showcase_message_9">保存日记</string>
+
+    <!--DiaryMainActivity-->
+    <string name="read_diary_title">搜索</string>
+    <string name="input_mode_a">语音模式</string>
+    <string name="input_mode_c">键盘模式</string>
+    <string name="guide_message_2">输入或说出主题</string>
+    <string name="recognizer_intent_not_found_message">语音识别模块没有安装或禁用。</string>
+    <string name="sample_diary_title_1">举杯邀明月，对影成三人</string>
+    <string name="sample_diary_title_2">今天是个好日子</string>
+    <string name="sample_diary_title_3">明天会更好</string>
+    <string name="sample_diary_title_4">更过去的自己，和解，道别，重新开始。</string>
+    <string name="sample_diary_1">When you look back at your past life, you will surely know that you have been damaging your life because you are too careful not to be in danger.\nDanger of danger.\nDanger rather than being careful.\n- Grant money, In the law of</string>
+    <string name="sample_diary_2">When you talk, you are only repeating what you already know.\nBut if you listen, you may learn something new.\n-The Dalai Lama</string>
+    <string name="sample_diary_3">It is the bad news that you need to hear most as a leader. \nThe good news is good tomorrow, but the bad news will be worse tomorrow. \nThis is because even if the facts are heartbreaking, That\'s why it\'s safe to say. \n- Eric Schmidt, President of Google, \"How does Google work?\"</string>
+    <string name="sample_diary_4">Constraints are not a barrier to creativity, but creativity is used to overcome constraints. \nAll great works or creative solutions are those that have a lot of time constraints, physical constraints, and resource constraints. Creativity is born in a constrained environment. \n- Representative Kim Bong-Jin</string>
+    <string name="read_diary_showcase_button_1">下一步</string>
+    <string name="read_diary_showcase_button_2">关闭</string>
+    <string name="read_diary_showcase_title_1">写日记</string>
+    <string name="read_diary_showcase_title_2">搜索</string>
+    <string name="read_diary_showcase_title_3">语音识别</string>
+    <string name="read_diary_showcase_title_4">日历</string>
+    <string name="read_diary_showcase_title_5">时间轴</string>
+    <string name="read_diary_showcase_title_6">表格</string>
+    <string name="read_diary_showcase_title_7">高级</string>
+    <string name="read_diary_showcase_title_8">日记试图</string>
+    <string name="read_diary_showcase_message_1">根据时间的顺序，你可以创建各种日记，如日记、备忘录、摘要等等。</string>
+    <string name="read_diary_showcase_message_2">你可以用关键字搜索日记。当输入一个关键字时，搜索匹配的日记，高亮显示关键字。</string>
+    <string name="read_diary_showcase_message_3">你可以使用语音识别功能在没有键盘的情况下输入搜索关键词。</string>
+    <string name="read_diary_showcase_message_4">创建的日记可以使用日历归档到日期。</string>
+    <string name="read_diary_showcase_message_5">创建的日记会被归档到时间轴。</string>
+    <string name="read_diary_showcase_message_6">您可以查看整个周期内的日志记录的图表。</string>
+    <string name="read_diary_showcase_message_7">您可以使用高级设置来更改字体、设置锁数、备份和恢复日志。</string>
+    <string name="read_diary_showcase_message_8">点击列表中的记事卡查看日记。</string>
+
+    <!--DiaryReadActivity-->
+    <string name="read_diary_detail_title">阅读日记</string>
+    <string name="delete_confirm">你确定要删除吗?</string>
+    <string name="read_diary_detail_showcase_button_1">下一个</string>
+    <string name="read_diary_detail_showcase_button_2">关闭</string>
+    <string name="read_diary_detail_showcase_title_1">滑动</string>
+    <string name="read_diary_detail_showcase_title_2">编辑</string>
+    <string name="read_diary_detail_showcase_title_3">TTS</string>
+    <string name="read_diary_detail_showcase_title_4">明信片</string>
+    <string name="read_diary_detail_showcase_title_5">删除</string>
+    <string name="read_diary_detail_showcase_message_1">左右滑动查看创建前后的日志。</string>
+    <string name="read_diary_detail_showcase_message_2">你可以到日记编辑界面编辑正在浏览的日记。</string>
+    <string name="read_diary_detail_showcase_message_3">你可以使用Google TTS的功能来收听日记文本。</string>
+    <string name="read_diary_detail_showcase_message_4">使用日记来创建卡片，并分享给他人。</string>
+    <string name="read_diary_detail_showcase_message_5">你可以删除当前的日记，然后进入搜索界面。</string>
+
+    <!--DiaryUpdateActivity-->
+    <string name="update_diary_title">编辑日记</string>
+    <string name="back_pressed_confirm">点击 \'确认\' 按钮在不保存当前日记的情况下，去日记搜索屏幕。</string>
+
+    <!--SettingsActivity_-->
+    <string name="setting_title">选项</string>
+    <string name="lock_number">密码:</string>
+    <string name="rate_app">给个赞</string>
+    <string name="guide_message_3">没有权限。</string>
+    <string name="application_lock_title">锁定应用</string>
+    <string name="application_lock_summary">当启用了锁设置时，应用程序将锁定设置密码。</string>
+    <string name="application_lock_password_title">设置密码</string>
+    <string name="restore_diary">恢复日记</string>
+    <string name="restore_diary_summary">使用备份到Google Drive的数据来恢复所有内容。在附加照片的情况下，只有链接信息存在。因此，在一个没有原始照片的设备上，只有附加照片的内容才会被恢复。包括原始照片在内的n恢复性功能将在未来推出。</string>
+    <string name="backup_diary">Backup diary</string>
+    <string name="backup_diary_summary">把你所有的内容备份到Google Drive。在附上照片的情况下，只有链接信息被备份。因此，在没有原始照片的设备上，只有附件的内容才会被恢复。包括原始照片在内的n备份功能将在未来提供。</string>
+    <string name="font_setting">字体</string>
+    <string name="add_ttf_fonts_title">添加TTF字体</string>
+    <string name="add_ttf_fonts_summary">将字体加入日记</string>
+    <string name="add_ttf_fonts_info_url">https://github.com/hanjoongcho/aaf-easydiary/blob/master/MANUAL.md</string>
+    <string name="diary_search_keyword_case_sensitive_title">区分大小写</string>
+    <string name="diary_search_keyword_case_sensitive_summary">当该选项被激活时，它将检查日志是否与案例匹配。</string>
+    <string name="setting_primary_color_title">主题</string>
+    <string name="setting_primary_color_summary">设置应用程序的主要颜色。</string>
+    <string name="pick_text_color_guide_message">当前版本只支持主题颜色的更改。\n 文本颜色的改变将在下版本得到支持。</string>
+    <string name="pick_background_color_guide_message">当前版本只支持主题颜色的更改。背景颜色的变化将在下版本得到支持。</string>
+
+    <!--CalendarActivity-->
+    <string name="calendar_title">日历</string>
+    <string name="guide_message_4">那天没有写日记。</string>
+
+    <!--BarChartActivity-->
+    <string name="bar_chart_title">图标</string>
+    <string name="bar_chart_status">日记创作状态</string>
+    <string name="range_a">0h~3h</string>
+    <string name="range_b">4h~7h</string>
+    <string name="range_c">8h~11h</string>
+    <string name="range_d">12h~15h</string>
+    <string name="range_e">16h~19h</string>
+    <string name="range_f">20h~23h</string>
+    <string name="range_g">1h~24h</string>
+    <string name="write_time">编辑时间</string>
+    <string name="write_count">日记数量</string>
+
+    <!--LockDiaryActivity-->
+    <string name="unlock_guide_message">请输入密码</string>
+
+    <!--PhotoViewPagerActivity-->
+    <string name="photo_view_error_info">没找到图片.\n图片可能被删除</string>
+
+    <!--PostCardActivity-->
+    <string name="diary_card_export_info">日记卡片保存路径</string>
+    <string name="diary_card_share_info">分享卡片</string>
+    <string name="diary_card_export_error_message">生成卡片的时候出现错误，请重试.</string>
+    <string name="post_card_showcase_button_1">Next</string>
+    <string name="post_card_showcase_button_2">关闭</string>
+    <string name="post_card_showcase_title_0">日记卡片</string>
+    <string name="post_card_showcase_title_1">文本颜色</string>
+    <string name="post_card_showcase_title_2">背景颜色</string>
+    <string name="post_card_showcase_title_3">创建卡片</string>
+    <string name="post_card_showcase_title_4">分享卡片</string>
+    <string name="post_card_showcase_title_5">退出编辑</string>
+    <string name="post_card_showcase_message_0">你可以使用保存的日记来创建卡片.</string>
+    <string name="post_card_showcase_message_1">您可以使用颜色选择器来选择想要的颜色，并应用到卡片上.</string>
+    <string name="post_card_showcase_message_2">您可以使用颜色选择器来选择想要的颜色，并应用到背景上.</string>
+    <string name="post_card_showcase_message_3">创建的卡片可以保存为图像文件.</string>
+    <string name="post_card_showcase_message_4">创建的卡片可以与朋友分享。用电子邮件、彩信、messenger等来分享你的卡片。</string>
+    <string name="post_card_showcase_message_5">退出卡片编辑，返回到之前的界面。</string>
+
+    <!--TimelineActivity-->
+    <string name="timeline_title">时间轴</string>
+
+    <!--GoogleDriveUtils-->
+    <string name="google_drive_connect_message">Google Drive in sync...</string>
+
+    <!--CaldroidItemAdapter-->
+    <string name="diary_count"></string>
+
+    <!--diary_main.xml-->
+    <string name="menu_calendar">日历</string>
+    <string name="menu_chart">图表</string>
+    <string name="menu_timeline">时间轴</string>
+    <string name="menu_preference">首选项</string>
+
+    <!--Array-->
+    <string-array name="weather_item_array">
+        <item>天气</item>
+        <item>晴天</item>
+        <item>雨天</item>
+        <item>阴天</item>
+        <item>小雪</item>
+    </string-array>
+
+    <string-array name="pref_list_fonts_title">
+        <item>设置字体</item>
+    </string-array>
+    <string-array name="pref_list_fonts_values">
+        <item>默认</item>
+    </string-array>
+
+</resources>

@@ -31,8 +31,8 @@ public class DialogUtils {
 //        builder.setTitle("일기삭제");
         builder.setMessage(message);
         builder.setCancelable(true);
-        builder.setNegativeButton("취소", negativeListener);
-        builder.setPositiveButton("확인", positiveListener);
+        builder.setNegativeButton("取消", negativeListener);
+        builder.setPositiveButton("确定", positiveListener);
         AlertDialog alert = builder.create();
         alert.show();
     }
@@ -43,7 +43,7 @@ public class DialogUtils {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setMessage(message);
         builder.setCancelable(true);
-        builder.setPositiveButton("확인", positiveListener);
+        builder.setPositiveButton("确定", positiveListener);
         AlertDialog alert = builder.create();
         alert.show();
     }
@@ -57,7 +57,7 @@ public class DialogUtils {
 //        builder.setIcon(R.drawable.book);
         builder.setMessage(message);
         builder.setCancelable(true);
-        builder.setPositiveButton("확인", positiveListener);
+        builder.setPositiveButton("确定", positiveListener);
         AlertDialog alert = builder.create();
         alert.show();
     }
